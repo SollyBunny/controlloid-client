@@ -13,8 +13,8 @@ import { Components } from "../../lib/controller";
 import { LayoutsActions } from "../../redux";
 import { ComponentEditorBox } from "../components";
 
-const MINIMUM_SIZE = 50;
-const MAXIMUM_SIZE = 150;
+const MINIMUM_SIZE = 25;
+const MAXIMUM_SIZE = 500;
 const DEFAULT_CONTROL_SIZE = {
   Analog: 100,
   Button: 75,
